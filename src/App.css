@@ -1,0 +1,64 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 300px;
+  margin: 50px auto;
+  border: 2px solid green;
+  padding: 50px;
+  padding-bottom: 20px;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+label {
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+input {
+  margin: 10px 0;
+}
+
+button[type="submit"] {
+  width: 170px;
+  height: 35px;
+  margin: 30px auto;
+  background-color: green;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+input,
+input::placeholder {
+  height: 20px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-family: Georgia;
+  color: green;
+}
+
+button:disabled {
+ opacity: 0.5;
+ cursor: not-allowed;
+}
+
+span {
+  color: red;
+}
+
+.error-message {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
